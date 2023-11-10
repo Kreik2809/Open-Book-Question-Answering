@@ -1,0 +1,32 @@
+The Conversation API delivers contact messages, delivery receipts for app messages and various notifications through callbacks. You can create up-to 5 endpoints (webhooks) per conversation API app through the Sinch Customer Dashboard or by using the /webhooks management endpoint.
+
+ 
+
+To add a new webhook to your Conversation API app:
+
+ 
+
+    Log in to the Sinch Customer Dashboard.
+
+    Select Conversation API from the left menu and select the Apps option. The Conversation Apps page is displayed.
+
+    Click the name of the app to which you want to add the webhook. For example, click TestApp. The TestApp setup page is displayed. Scroll down to the Webhooks section:
+     
+    Note: If you do not already have a Conversation API App – click here to learn how to create one.
+
+    Click ADD WEBHOOK. The New webhook dialog box is displayed:
+
+    In the Target type drop-down, select HTTP.
+
+    In the Target URL field, enter the URL to which you want the webhook to point.
+
+    If you want the webhook to validate against your chosen endpoint, enter the token you want the webhook to use in the Secret token field.
+
+    Select all the triggers you want to add to the webhook, in the Triggers down-down:
+
+
+    For more information about the kinds of information and events the triggers can return, see the webhook triggers documentation.
+
+    Click Create to add the webhook.
+
+    The webhook is created and is displayed in the Webhooks section of the app page.

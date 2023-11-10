@@ -1,0 +1,8 @@
+*.bin
+*.h5
+*.pyc
+*.bin
+
+.DS_store
+
+outputs

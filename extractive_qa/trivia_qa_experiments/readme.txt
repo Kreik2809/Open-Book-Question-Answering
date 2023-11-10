@@ -1,0 +1,1 @@
+The trivia qa experiments folder contains code to conduct evaluation for trivia_qa dataset with models that support AutoModelForQuestionAnswering.

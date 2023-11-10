@@ -1,0 +1,15 @@
+{
+    "experiment_name" : "test",
+    "dataset_id" : "trivia_qa",
+    "dataset_config" : "rc",
+    "dataset_json"  : "triviaqa_sample.json",
+    "tokenizer_id" : "microsoft/deberta-v3-base",
+    "model_id" : "microsoft/deberta-v3-base",
+    "device" : "cpu",
+    "stride" : 128,
+    "max_length" : 512,
+    "batch_size" : 16,
+    "n_best": 10,
+    "max_answer_length": 30,
+    "seed" : 42
+}

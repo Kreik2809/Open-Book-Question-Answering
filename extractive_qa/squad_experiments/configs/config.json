@@ -1,0 +1,14 @@
+{
+    "experiment_name" : "test",
+    "dataset_id" : "squad",
+    "model_id" : "gpt2",
+    "device" : "cpu",
+    "batch_size" : 16,
+    "epochs" : 1,
+    "lr" : 5e-5,
+    "max_length" : 384,
+    "stride" : 128,
+    "max_answer_length" : 30,
+    "n_best" : 20,
+    "seed" : 42
+}

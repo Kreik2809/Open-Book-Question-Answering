@@ -1,0 +1,13 @@
+{
+    "experiment_name" : "inference_test",
+    "tokenizer_id" : "gpt2",
+    "model_id" : "gpt2",
+    "device" : "cpu",
+    "Qlora" : "False",
+    "no_ans_threshold" : -0.47,
+    "ans_threshold" : -0.9,
+    "stride" : 128,
+    "max_length" : 1024,
+    "max_answer_length": 30,
+    "seed" : 42
+}
