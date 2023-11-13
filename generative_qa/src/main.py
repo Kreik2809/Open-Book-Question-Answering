@@ -28,8 +28,6 @@ def main():
     #Gather all hyperparameters
     experiment_name = config['experiment_name']
     dataset_id = config['dataset_id']
-    dataset_config = config['dataset_config']
-    dataset_json = config['dataset_json']
     model_id = config['model_id']
     tokenizer_id = config['tokenizer_id']
     device = config['device']
@@ -81,8 +79,6 @@ def main():
 
     logger.info("Starting evaluation for experiment: " + experiment_name)
     logger.info("Dataset: " + dataset_id)
-    logger.info("Dataset config: " + str(dataset_config))
-    logger.info("Dataset json: " + dataset_json)
     logger.info("Model: " + model_id)
     logger.info("Tokenizer: " + tokenizer_id)
     logger.info("Device: " + device)

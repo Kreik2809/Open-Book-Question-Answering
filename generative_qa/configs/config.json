@@ -1,8 +1,6 @@
 {
     "experiment_name" : "test",
     "dataset_id" : "squad_v2",
-    "dataset_config" : "",
-    "dataset_json"  : "",
     "tokenizer_id" : "gpt2",
     "model_id" : "gpt2",
     "device" : "cpu",
