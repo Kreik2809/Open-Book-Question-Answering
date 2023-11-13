@@ -8,6 +8,7 @@ This internship explores the development of an open-book question answering (QA)
 ### Usage
 The repository is organized into three subdirectories: extractive_qa, generative_qa, and inference. Please refer to the requirements.in file for all necessary dependencies. The code utilizes the Hugging Face transformers libraries for implementation.
 
+For more details, please find the attached report : [report.pdf](https://github.com/Kreik2809/Open-Book-Question-Answering/blob/main/report.pdf)
 #### extractive_qa 
 Inside the "extractive_qa" directory, you can find subfolders containing code for fine-tuning and validating on SQuAD v1 and v2 datasets, as well as validating on the trivia_qa dataset for the extractive QA model. Experiments are intended to be run using the "main.py" files in the "src" subdirectories. All experiment hyperparameters can be modified in the "config.json" file within the "configs" subdirectories.
 
